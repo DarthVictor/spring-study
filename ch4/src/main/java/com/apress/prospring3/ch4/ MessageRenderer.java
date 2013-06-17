@@ -1,7 +1,7 @@
 package com.apress.prospring3.ch4;
 
 /**
- * @author Clarence
+ * @author Darth Victor
  *
  */
 public interface MessageRenderer 
