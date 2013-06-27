@@ -1,8 +1,13 @@
 package com.apress.prospring3.ch4.annotation;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 // Codes omitted
 
 @Service("constructorConfusion")
 public class ConstructorConfusion
+{
 
     private String someValue;
     
